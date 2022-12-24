@@ -1,7 +1,7 @@
-﻿char[] variants = { ' ', ',', '.' };
-Console.WriteLine("Введите текст");
+﻿Console.WriteLine("Введите текст");
 string? text = Console.ReadLine();
 #nullable disable
+char[] variants = { ' ', ',', '.' };
 string[] array = text.Split(variants);
 Console.WriteLine();
 Console.WriteLine("Ваш текст");
